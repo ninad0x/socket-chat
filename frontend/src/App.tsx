@@ -5,11 +5,11 @@ import './App.css'
 function App() {
 
   useEffect(() => {
-    const ws = new WebSocket("ws://localhost:8080")
+    // const ws = new WebSocket("ws://localhost:8080")
   }, []);
 
   function sendMessage() {
-    
+
   }
 
   return (
